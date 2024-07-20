@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Contact</title>
+        <meta name="description" content="contact">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="contactPage">
+        <nav class="navContainer">
+            <div class="logo"></div>
+            <div class="menuContainer">
+              <div class="menu" id="home"><a href="index.html">Home</a></div>
+              <div class="menu" id="services"><a href="services.html">Services</a></div>
+              <div class="menu" id="about"><a href="about.html">About</a></div>
+              <div class="menu" id="contact"><a href="contact.html">Contact</a></div>
+            </div>
+            
+            <div class="dropList">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </nav>
+          <div class="contactContent">
+            <h1>Contact Us:</h1>
+            <fieldset>
+              <label>Name:</label>
+              <input type="text" name="name" maxlength="100">
+              <br>
+              <label>Phone Number:</label>
+              <input type="text" name="phone" maxlength="12">
+              <br>
+              <label>Email:</label>
+              <input type="email" name="email" maxlength="50">
+              <div class="droplist">
+                <label for="serviceList">Select type of service:</label>
+                <select id="serviceList">
+                  <option>Hair</option>
+                  <option>Facial</option>
+                  <option>Nails</option>
+                  <option>Spa</option>
+                </select>
+              </div>
+              <p>Your message:</p>
+              <textarea id="message" placeholder="..."></textarea>
+            </fieldset>
+            <div>
+              <h3>Connect With Us</h3>
+              <a href="https://www.facebook.com/" target="_blank">
+                <img class="icon" id="fb" src="images/facebook.gif">
+              </a>
+              <a href="https://www.instagram.com/" target="_blank">
+                <img class="icon" id="insta" src="images/instagram.gif">
+              </a>
+            </div>
+          </div>
+    </body>
+</html>
